@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color:peachpuff;
+}
+h1{
+  color:grey;
+  font-size:34px;
+  font-weight: bold;
+
+}
+p{
+  color:lightseagreen;
+  font-size:19px;
+  
+}
+
+#bookContainer{  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: paleturquoise;
+  
+}
+
+.book-card {
+  border: 1px solid darkslategray;
+  padding: 15px;
+  width: 200px;
+  background-color: grey;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background-color: aquamarine;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid purple;
+
+}
+
